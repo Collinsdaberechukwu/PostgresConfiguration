@@ -18,19 +18,7 @@ public class StudentImplementation implements StudentService {
 
     @Override
     public Students signUp(StudentsRegister signup) {
-//        if (studentRepository.findByLastName(signup.getLastName()){
-//           throw new RuntimeException("User already signed up", Throwable.);
-//        }
-//        Students newStudent = Students.builder()
-//                .firstName(signup.getFirstName())
-//                .lastName(signup.getLastName())
-//                .email(signup.getEmail())
-//                .age(signup.getAge())
-//                .status(signup.getStatus())
-//                .address(signup.getAddress())
-//                .build();
-//       Students saved = studentRepository.save(newStudent);
-//       return saved;
+
         Students newStudent = new Students();
         newStudent.setFirstName(signup.getFirstName());
         newStudent.setLastName(signup.getLastName());
