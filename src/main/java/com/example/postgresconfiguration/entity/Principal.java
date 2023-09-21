@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
+
 @Table(name = "principal_Tab")
 public class Principal {
     @Id
